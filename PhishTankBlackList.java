@@ -28,7 +28,7 @@ public class PhishTankBlackList {
 public static String str;
 
     public static void main(String args[]) throws Exception {
-    	//Timestamp timestamp = new Timestamp(System.currentTimeMillis());
+    
     	     
     	    // TODO Auto-generated method stub
     	
@@ -39,7 +39,8 @@ public static String str;
     	string = string + ".html";
     	//String str = timestamp;
     	s=(new StringBuilder()).append("C:/Users/padma/Desktop/MINI/").append(string).toString();
-    	System.out.println(s);
+    	//we put our file name(that is the timestamp of generation) into the directory MINI located on my desktop.
+	    System.out.println(s);
     	
     	OutputStream out = new FileOutputStream(s);
        // "C:/Users/padma/Desktop/MINI/myfile.txt"
@@ -80,9 +81,10 @@ A byte is 8 bits and also it is in binary.
 
 A byte array is an array of byte. so, here, we make byte array which has 4096 byte.
 
-Hum byte array collection store karne ke liye use karte hai of binary data, 
-like the contents of a file. The bad thing is that the entire file 
-contents must be loaded into memory same time.
+In order to store byte array collection we use binary data, 
+like the contents of a file. 
+The disadvantage is that the entire file 
+contents must be loaded into memory at the same time.
 }*/
     private static void copy(InputStream from, OutputStream to) throws IOException {
         byte[] buffer = new byte[4096];
@@ -99,7 +101,7 @@ contents must be loaded into memory same time.
     }
     
 
-  //  String title = StringUtils.substringBetween(s, "<title>", "</title>");
+ 
     public static String url()
     {
     	return str;
