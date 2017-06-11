@@ -32,36 +32,9 @@ public class CapitalsCounter {
 		{
 			System.out.println("Probably Phishing or a directed page");
 		}
-		/*ctr=0;
-		//paths capital letters
-		System.out.println("Number of capitals in the path");
-		String string=Basicinfo.path();
-		for(int j=0;j<string.length();j++)
-		{ if(Character.isUpperCase(string.charAt(j))){
-			ctr=ctr+1;
-		}
-		System.out.println(ctr);
-		if(ctr>=4)
-		{
-			System.out.println("Probably Phishing");
-		}*/
-		/*
-		ctr=0;
-		String stri=DomainTokensCounter.mstr();
-		System.out.println(mstr);
-		System.out.println("Number of capitals in the domain");
-		for(i=0;i<stri.length();i++)
-		{ if(Character.isUpperCase(stri.charAt(i))){
-			ctr=ctr+1;
-		}
-		System.out.println(ctr);
-		if(ctr>=4)
-		{
-			System.out.println("Probably Phishing");
-		}
-		}*/
+		
 }}
-	//}
+	
 	public static String url()
 	{
 		return finalstr;
