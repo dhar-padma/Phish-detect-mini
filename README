@@ -1,0 +1,9 @@
+This is my mini project for my third year.
+
+It was made in eclipse(java).
+APIs Used- 
+1. JDBC (external API)(It was used to connect between java and the locally created whitelist in MySQL)
+
+Log files are created and stored in the file directory.
+
+
