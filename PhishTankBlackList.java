@@ -2,24 +2,22 @@ package Main;
 //logger class
 
 //this prog checks phishtank and stores the webpg in a log file that it creates
-//
 
 //works properly
 import java.io.*;  
 import java.net.*;
-//import java.sql.Timestamp;
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
 
-import org.apache.commons.io.FileUtils;
-import org.apache.commons.*;
+//import org.apache.commons.io.FileUtils;
+//import org.apache.commons.*;
 import com.mysql.jdbc.StringUtils;
 
 @SuppressWarnings("unused")
